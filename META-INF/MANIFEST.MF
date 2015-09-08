@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: System
+Bundle-SymbolicName: cinemamanagerment.system; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: cn.com.shxt.core.Activator
+Bundle-Vendor: wx
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: src/mysql-connector-java-5.0.8-bin.jar,
+ .
